@@ -11,6 +11,7 @@
 		3DEBC77D2563118900ABD9CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC77C2563118900ABD9CD /* ContentView.swift */; };
 		3DEBC77F2563118B00ABD9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEBC77E2563118B00ABD9CD /* Assets.xcassets */; };
 		3DEBC7822563118B00ABD9CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEBC7812563118B00ABD9CD /* Preview Assets.xcassets */; };
+		3DEBC78C256311CB00ABD9CD /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC78A256311CB00ABD9CD /* Main.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3DEBC77E2563118B00ABD9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DEBC7812563118B00ABD9CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DEBC7832563118B00ABD9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEBC78B256311CB00ABD9CD /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3DEBC77A2563118900ABD9CD /* MovieAppApp.swift */,
 				3DEBC77C2563118900ABD9CD /* ContentView.swift */,
+				3DEBC78A256311CB00ABD9CD /* Main.xcdatamodeld */,
 				3DEBC77E2563118B00ABD9CD /* Assets.xcassets */,
 				3DEBC7832563118B00ABD9CD /* Info.plist */,
 				3DEBC7802563118B00ABD9CD /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEBC78C256311CB00ABD9CD /* Main.xcdatamodeld in Sources */,
 				3DEBC77D2563118900ABD9CD /* ContentView.swift in Sources */,
 				3DEBC77B2563118900ABD9CD /* MovieAppApp.swift in Sources */,
 			);
@@ -328,6 +332,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3DEBC78A256311CB00ABD9CD /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3DEBC78B256311CB00ABD9CD /* Main.xcdatamodel */,
+			);
+			currentVersion = 3DEBC78B256311CB00ABD9CD /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3DEBC76F2563118900ABD9CD /* Project object */;
 }
