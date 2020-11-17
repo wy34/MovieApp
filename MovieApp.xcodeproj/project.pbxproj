@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DEBC77B2563118900ABD9CD /* MovieAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC77A2563118900ABD9CD /* MovieAppApp.swift */; };
+		3DEBC77B2563118900ABD9CD /* MovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC77A2563118900ABD9CD /* MovieApp.swift */; };
 		3DEBC77D2563118900ABD9CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC77C2563118900ABD9CD /* ContentView.swift */; };
 		3DEBC77F2563118B00ABD9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEBC77E2563118B00ABD9CD /* Assets.xcassets */; };
 		3DEBC7822563118B00ABD9CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEBC7812563118B00ABD9CD /* Preview Assets.xcassets */; };
 		3DEBC78C256311CB00ABD9CD /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC78A256311CB00ABD9CD /* Main.xcdatamodeld */; };
+		3DEBC7902563147600ABD9CD /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC78F2563147600ABD9CD /* DataController.swift */; };
+		3DEBC7D025637C5F00ABD9CD /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEBC7CF25637C5F00ABD9CD /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DEBC7772563118900ABD9CD /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DEBC77A2563118900ABD9CD /* MovieAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppApp.swift; sourceTree = "<group>"; };
+		3DEBC77A2563118900ABD9CD /* MovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApp.swift; sourceTree = "<group>"; };
 		3DEBC77C2563118900ABD9CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DEBC77E2563118B00ABD9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DEBC7812563118B00ABD9CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DEBC7832563118B00ABD9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DEBC78B256311CB00ABD9CD /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		3DEBC78F2563147600ABD9CD /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3DEBC7CD25637C5D00ABD9CD /* MovieApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MovieApp.entitlements; sourceTree = "<group>"; };
+		3DEBC7CF25637C5F00ABD9CD /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEBC7D025637C5F00ABD9CD /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,7 @@
 			children = (
 				3DEBC7792563118900ABD9CD /* MovieApp */,
 				3DEBC7782563118900ABD9CD /* Products */,
+				3DEBC7CE25637C5F00ABD9CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +61,10 @@
 		3DEBC7792563118900ABD9CD /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
-				3DEBC77A2563118900ABD9CD /* MovieAppApp.swift */,
+				3DEBC7CD25637C5D00ABD9CD /* MovieApp.entitlements */,
+				3DEBC77A2563118900ABD9CD /* MovieApp.swift */,
 				3DEBC77C2563118900ABD9CD /* ContentView.swift */,
+				3DEBC78F2563147600ABD9CD /* DataController.swift */,
 				3DEBC78A256311CB00ABD9CD /* Main.xcdatamodeld */,
 				3DEBC77E2563118B00ABD9CD /* Assets.xcassets */,
 				3DEBC7832563118B00ABD9CD /* Info.plist */,
@@ -70,6 +79,14 @@
 				3DEBC7812563118B00ABD9CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DEBC7CE25637C5F00ABD9CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DEBC7CF25637C5F00ABD9CD /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DEBC78C256311CB00ABD9CD /* Main.xcdatamodeld in Sources */,
+				3DEBC7902563147600ABD9CD /* DataController.swift in Sources */,
 				3DEBC77D2563118900ABD9CD /* ContentView.swift in Sources */,
-				3DEBC77B2563118900ABD9CD /* MovieAppApp.swift in Sources */,
+				3DEBC77B2563118900ABD9CD /* MovieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MovieApp/MovieApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieApp/Preview Content\"";
 				DEVELOPMENT_TEAM = YNSMJAS38V;
@@ -293,6 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MovieApp/MovieApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieApp/Preview Content\"";
 				DEVELOPMENT_TEAM = YNSMJAS38V;
