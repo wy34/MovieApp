@@ -14,6 +14,8 @@
 		3DEBC78C256311CB00ABD9CD /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC78A256311CB00ABD9CD /* Main.xcdatamodeld */; };
 		3DEBC7902563147600ABD9CD /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC78F2563147600ABD9CD /* DataController.swift */; };
 		3DEBC7D025637C5F00ABD9CD /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEBC7CF25637C5F00ABD9CD /* CloudKit.framework */; };
+		3DF86DF22564617600D12CC6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF86DF12564617600D12CC6 /* HomeView.swift */; };
+		3DF86DF6256462D400D12CC6 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF86DF5256462D400D12CC6 /* ProjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		3DEBC78F2563147600ABD9CD /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		3DEBC7CD25637C5D00ABD9CD /* MovieApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MovieApp.entitlements; sourceTree = "<group>"; };
 		3DEBC7CF25637C5F00ABD9CD /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		3DF86DF12564617600D12CC6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3DF86DF5256462D400D12CC6 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				3DEBC7CD25637C5D00ABD9CD /* MovieApp.entitlements */,
 				3DEBC77A2563118900ABD9CD /* MovieApp.swift */,
+				3DF86DF12564617600D12CC6 /* HomeView.swift */,
+				3DF86DF5256462D400D12CC6 /* ProjectView.swift */,
 				3DEBC77C2563118900ABD9CD /* ContentView.swift */,
 				3DEBC78F2563147600ABD9CD /* DataController.swift */,
 				3DEBC78A256311CB00ABD9CD /* Main.xcdatamodeld */,
@@ -158,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF86DF6256462D400D12CC6 /* ProjectView.swift in Sources */,
 				3DEBC78C256311CB00ABD9CD /* Main.xcdatamodeld in Sources */,
 				3DEBC7902563147600ABD9CD /* DataController.swift in Sources */,
 				3DEBC77D2563118900ABD9CD /* ContentView.swift in Sources */,
+				3DF86DF22564617600D12CC6 /* HomeView.swift in Sources */,
 				3DEBC77B2563118900ABD9CD /* MovieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
