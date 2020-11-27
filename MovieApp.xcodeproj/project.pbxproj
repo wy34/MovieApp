@@ -11,6 +11,7 @@
 		3D29058D256712A60044B394 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29058C256712A60044B394 /* Project-CoreDataHelpers.swift */; };
 		3D8B8CF4256D663200A34131 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B8CF3256D663200A34131 /* EditItemView.swift */; };
 		3D8B8CF8256D72F300A34131 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B8CF7256D72F300A34131 /* ItemRowView.swift */; };
+		3DCCEB6F2571600B00E6EAD9 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCCEB6E2571600B00E6EAD9 /* Binding-OnChange.swift */; };
 		3DEBC77B2563118900ABD9CD /* MovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC77A2563118900ABD9CD /* MovieApp.swift */; };
 		3DEBC77D2563118900ABD9CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBC77C2563118900ABD9CD /* ContentView.swift */; };
 		3DEBC77F2563118B00ABD9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEBC77E2563118B00ABD9CD /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		3D29058C256712A60044B394 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		3D8B8CF3256D663200A34131 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		3D8B8CF7256D72F300A34131 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		3DCCEB6E2571600B00E6EAD9 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		3DEBC7772563118900ABD9CD /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEBC77A2563118900ABD9CD /* MovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApp.swift; sourceTree = "<group>"; };
 		3DEBC77C2563118900ABD9CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				3DEBC77C2563118900ABD9CD /* ContentView.swift */,
 				3DEBC78F2563147600ABD9CD /* DataController.swift */,
 				3D8B8CF3256D663200A34131 /* EditItemView.swift */,
+				3DCCEB6E2571600B00E6EAD9 /* Binding-OnChange.swift */,
 				3D8B8CF7256D72F300A34131 /* ItemRowView.swift */,
 				3DEBC78A256311CB00ABD9CD /* Main.xcdatamodeld */,
 				3DEBC77E2563118B00ABD9CD /* Assets.xcassets */,
@@ -182,6 +185,7 @@
 				3DEBC7902563147600ABD9CD /* DataController.swift in Sources */,
 				3D8B8CF8256D72F300A34131 /* ItemRowView.swift in Sources */,
 				3DEBC77D2563118900ABD9CD /* ContentView.swift in Sources */,
+				3DCCEB6F2571600B00E6EAD9 /* Binding-OnChange.swift in Sources */,
 				3DF86DF22564617600D12CC6 /* HomeView.swift in Sources */,
 				3DEBC77B2563118900ABD9CD /* MovieApp.swift in Sources */,
 				3D29058A25670FFE0044B394 /* Item-CoreDataHelpers.swift in Sources */,
